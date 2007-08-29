@@ -35,6 +35,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/xmore
 %{_datadir}/X11/app-defaults/XMore
-%{_mandir}/man1/xmore.1x.bz2
+%{_mandir}/man1/xmore.1x*
 
 
