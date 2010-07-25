@@ -1,6 +1,6 @@
 Name:		xmore
-Version:	1.0.1
-Release:	%mkrel 9
+Version:	1.0.2
+Release:	%mkrel 1
 Summary:	Plain text display program for the X Window System
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
