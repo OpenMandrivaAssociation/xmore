@@ -1,9 +1,10 @@
 Name:		xmore
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 Summary:	Plain text display program for the X Window System
 Group:		Development/X11
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Url:		https://gitlab.freedesktop.org/xorg/app/xmore
+Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 BuildRequires: libxt-devel >= 1.0.0
 BuildRequires: libxaw-devel >= 1.0.1
