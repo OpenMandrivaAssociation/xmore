@@ -6,9 +6,9 @@ Group:		Development/X11
 Url:		https://gitlab.freedesktop.org/xorg/app/xmore
 Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
-BuildRequires: libxt-devel >= 1.0.0
-BuildRequires: libxaw-devel >= 1.0.1
-BuildRequires: libxprintutil-devel >= 1.0.1
+BuildRequires: pkgconfig(xt)
+BuildRequires: pkgconfig(xaw7)
+#BuildRequires: libxprintutil-devel >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
