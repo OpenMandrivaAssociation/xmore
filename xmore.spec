@@ -1,6 +1,6 @@
 Name:		xmore
 Version:	1.0.4
-Release:	1
+Release:	2
 Summary:	Plain text display program for the X Window System
 Group:		Development/X11
 Url:		https://gitlab.freedesktop.org/xorg/app/xmore
@@ -8,7 +8,7 @@ Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}
 License:	MIT
 BuildRequires: pkgconfig(xt)
 BuildRequires: pkgconfig(xaw7)
-#BuildRequires: libxprintutil-devel >= 1.0.1
+BuildRequires: pkgconfig(xprintutil) >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
