@@ -6,6 +6,11 @@ Group:		Development/X11
 Url:		https://gitlab.freedesktop.org/xorg/app/xmore
 Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(xt)
 BuildRequires: pkgconfig(xaw7)
 BuildRequires: pkgconfig(xprintutil) >= 1.0.1
